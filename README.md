@@ -43,6 +43,7 @@ This project demonstrates a complete ML workflow — from preprocessing to model
 ---
 
 ## 📂 Repository Structure
+```
 house-price-prediction-ml/
 ├── figures/ # Evaluation plots
 │ ├── test_rmse.png
@@ -62,7 +63,7 @@ house-price-prediction-ml/
 ├── README.md # Project documentation
 └── .gitignore
 
-
+```
 ---
 
 ## 📥 Dataset
@@ -100,4 +101,5 @@ Run Jupyter notebooks
 notebooks/house_price_prediction.ipynb → train & evaluate models
 
 notebooks/predict_example.ipynb → use the saved model to make predictions
+
 
