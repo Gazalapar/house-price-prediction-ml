@@ -1,9 +1,23 @@
-﻿AmesHousing.csv
-data/
+﻿# Jupyter
 .ipynb_checkpoints/
+
+# Ignore everything in data/ except the placeholder README
+data/*
+!data/README.md
+
+# Dataset at repo root (if someone drops it there)
+AmesHousing.csv
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# System files
 .DS_Store
 Thumbs.db
+
+# Virtual envs
 venv/
 .env/
