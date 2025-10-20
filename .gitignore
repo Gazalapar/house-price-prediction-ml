@@ -1,20 +1,9 @@
-﻿# Jupyter
-.ipynb_checkpoints/
-
-# Dataset
-AmesHousing.csv
+﻿AmesHousing.csv
 data/
-
-# Python cache
+.ipynb_checkpoints/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# System files
 .DS_Store
 Thumbs.db
-
-# Virtual envs
 venv/
 .env/
